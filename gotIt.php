@@ -1,9 +1,11 @@
 <?php
+
+var_dump($_POST);
     $filename = "SaveInfo.csv";
     $isItExisting = (file_exists($filename));
 
  	$handle = fopen($filename, 'a');
-	$msg = "Thank you ". $_POST['name'] . " for submitting your information.\n";	//EMail message
+	$msg = "Thank you ". $_POST['firstname'] . " for submitting your information.\n";	//EMail message
 	$stringToAdd="";										//File information
 
 	if (!$isItExisting){
@@ -27,7 +29,7 @@
 	//now close the file
 	fclose($handle); 
 	$to = $_POST["email"];
-	$headers = "From: ". $_POST["name"] ."<".$_POST["email"]. ">\r\n";
+	$headers = "From: ". $_POST["firstname"] ."<".$_POST["email"]. ">\r\n";
 
 	mail($to, 'Form Data', $msg,$headers);
 

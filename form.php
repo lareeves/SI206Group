@@ -1,3 +1,8 @@
+<?php 
+
+
+ ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,13 +11,8 @@
 	<title>Document</title>
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
-
-</head>
-<body>
-
-
-	<script type="text/javascript">
+	<link rel="stylesheet" type="text/css" href="form.css">
+		<script type="text/javascript">
 	function validateForm(form){
 		var emailCheck = form.email;
 		var nameCheck = form.name;
@@ -33,20 +33,29 @@
 	} 
 </script>
 
-	
 
-<form action="POST"> 
+</head>
+<body>
+
+
+
+
+	<div class="container">
+		<h1>Practice Form </h1>
+<div class ="form-horizontal col-sm-offset-4"> 
+<form action="gotIt.php" method="POST" >
+	
 	<!-- Must add bootstrap styling -->
 	<label for="firstname">First Name</label>
-	<input type="text" name: "firstname"> <br>
-	<label for="last name">Last Name</label>
-	<input type="text" name:"lastname"> <br>
+	<input type="text" name="firstname"> <br>
+	<label for="lastname">Last Name</label>
+	<input type="text" name="lastname"> <br>
 	<label for="year">Year</label>
 	<input type="number"> <br>
-	<label for="email">Email:</label>
-	<input type="email" name:"email"><br>
+	<label for="email">Your Email:</label>
+	<input type="email" name="email"><br>
 	<label for="profname">Professor Name</label>
-	<input type="text" name:"profname"><br>
+	<input type="text" name="profname"><br>
 	<label for="coursename">Course:</label>
 	<select name="coursename" id="">
 		<option value="course1">Course 1</option>
@@ -96,7 +105,8 @@
 	<label for="feedback">Write your review:</label><br>
 	<textarea name="feedback" id="" cols="30" rows="10"></textarea>
 	<input type="submit" value= "Submit">
+	</div>
+	</div>
 </form onsubmit="return validateForm(this);">
-
 </body>
 </html>
