@@ -1,3 +1,24 @@
+<script type="text/javascript">
+	function validateForm(form){
+		var emailCheck = form.email;
+		var nameCheck = form.name;
+    	var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
+		if (email.val() == '' || !re.test(email.val()))
+		{
+    		alert('Please enter a valid email address.');
+    		return false;
+		}
+		else{
+			if (nameCheck.match("[a-zA-Z]") == true){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+	} 
+</script>
+
 <form action="POST"> 
 	<!-- Must add bootstrap styling -->
 	<label for="firstname">First Name</label>
@@ -59,4 +80,4 @@
 	<label for="feedback">Write your review:</label><br>
 	<textarea name="feedback" id="" cols="30" rows="10"></textarea>
 	<input type="submit" value= "Submit">
-</form>
+</form onsubmit="return validateForm(this);">
