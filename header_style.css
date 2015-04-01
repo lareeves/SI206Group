@@ -1,0 +1,116 @@
+
+h1, nav {
+	text-align: center;
+}
+h1{
+	font-size: 6em;
+	padding: 0.4em 0.1em;
+	margin: 0;
+	/*background-color: blue;*/
+}
+nav a{
+	width:70%;
+	font-size: 4.5em;
+	display: block;
+	text-decoration: none;
+	/*border: 3px solid black;*/
+	margin: 0 auto;
+	margin-bottom: 0.8em;
+	padding: 0.8em 0em;
+	background: #424345;
+	color: white;
+}
+nav{
+	/*background-color: yellow;*/
+	padding-top: 3em;
+}
+
+/*---Search bar---*/
+#searchbarwrap{
+	padding: 2.5em 0em;
+	background-color:#c3dfef;
+
+}
+#newsearch{
+	text-align: center;
+	/*float:right;*/
+	/*padding:2em;*/
+}
+#textinput{
+	width:80%;
+	font-size:4em;
+	/*height: 3.5em;*/
+	margin: 0;
+
+	padding: 0em;
+	padding-left: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	/*border: 0.1em solid black; */
+	background-color: #626262;
+	/*color:#e2e2e2;*/
+	color: #c3dfef;
+	border:none;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+#gobutton {
+	margin: 0;
+	font-size:4em;
+	/*height: 3.5em;*/
+	padding: 0.2em 0.2em;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	/*font-weight:bold;*/
+	/*outline: none;*/
+	/*cursor: pointer;*/
+	text-align: center;
+	/*text-decoration: none;*/
+	color: #ffffff;
+	/*border: 0.2em solid black; */
+	/*border-right: 0.2em solid black ;*/
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border: none;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+#gobutton:hover {
+	/*text-decoration: none;*/
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton2::-moz-focus-inner {
+  border: 0;
+}
+/*.tfclear{
+	clear:both;
+}*/
+
+@media only screen and (min-width: 768px) {
+	h1{
+		font-size: 4em;
+	}
+	#textinput, #gobutton{
+		font-size:2em;
+	}
+	nav{
+		padding-top: 4em;
+		padding-bottom: 2em;
+	}
+	nav a{
+		font-size: 2.5em;
+		display: inline;
+		margin: 0em 0.1em;
+		padding-left: 0.6em;
+		padding-right: 0.6em;
+	}
+
+}
+@media only screen and (min-width: 992px) {
+
+
+}
