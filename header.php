@@ -4,8 +4,8 @@
 		
 
 	</style>
-
-	<h1 id="main_title">University of Michigan Rate My Class</h1>
+	
+	<h1 id="main_title">UofM Rate My Class</h1>
 
 	<!-- modified from: http://www.textfixer.com/tutorials/html-search-box.php -->
 	<!-- HTML for SEARCH BAR -->
