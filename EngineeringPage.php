@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Engineering Page</title>
-</head>
+<?php
+	$fName = basename(__FILE__);
+	include("head.php")
+?>
 <body>
+	<?php
+		include("header.php");
+	?>
 	<h2>College of Engineering</h2>
 	<h3>EECS 280: Programming and INtroductory Data Structures</h3>
 		<section>

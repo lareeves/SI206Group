@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>School of Information</title>
-</head>
+
+<?php
+	$fName = basename(__FILE__);
+	include("head.php")
+?>
 <body>
+<body>
+	<?php
+		include("header.php");
+	?>
 	<h2>School of Information</h2>
 	<h3>SI 110: Introudction to Information Studies</h3>
 		<section>

@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>LSA</title>
-</head>
+
+<?php
+	$fName = basename(__FILE__);
+	include("head.php")
+?>
 <body>
+	<?php
+		include("header.php");
+	?>
 	<h2>College of Literature Science and Arts</h2>
 	<h3>Psych 111: Introduction to Psychology</h3>
 		<section>
