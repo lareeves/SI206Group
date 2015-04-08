@@ -46,8 +46,8 @@
 <form action="gotIt.php" method="POST" >
 	
 	<!-- Must add bootstrap styling -->
-	<label for="firstname">First Name</label>
-	<input type="text" name="firstname"> <br>
+	<label for="firstname" >First Name</label>
+	<input type="text" name="firstname" placeholder="First Name"> <br>
 	<label for="lastname">Last Name</label>
 	<input type="text" name="lastname"> <br>
 	<label for="year">Year</label>
@@ -104,7 +104,7 @@
 	</select><br>
 	<label for="feedback">Write your review:</label><br>
 	<textarea name="feedback" id="" cols="30" rows="10"></textarea>
-	<input type="submit" value= "Submit">
+	<input type="submit" value= "Submit" class="btn btn-default">
 	</div>
 	</div>
 </form onsubmit="return validateForm(this);">
