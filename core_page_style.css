@@ -1,3 +1,6 @@
+body {
+	background-color: #F2F2FF;
+}
 h2 {
 	text-decoration: underline;
 }
@@ -16,12 +19,29 @@ h3 {
 	text-align: left;
 	padding: 2%;
 	display: none;
+	font-size: 1.2em;
 }
 .comButton {
 	float: right;
 }
 .comButton:hover {
 	color: #5A9E5A;
+}
+tr {
+	border: 4px dashed #c3dfef;
+}
+td {
+	padding: 1.5%;
+	width: 70%;
+}
+p div p {
+	text-decoration: underline;
+	text-decoration: overline;
+}
+.data {
+	text-align: left;
+	color: #0095cd;
+	font-size: 2em;
 }
 
 @media only screen and (min-width: 1200px) {

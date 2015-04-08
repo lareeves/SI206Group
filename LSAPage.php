@@ -24,12 +24,19 @@
 			<div id="Psych" class ="course">
 				<p class="description">Designed to introduce students to the major topics studied by psychologists including sensation, perception, learning, motivation, physiological and cultural bases of behavior, development, personality, and social psychology.<br>
 				<button class = "comButton" onclick="showText('PSYCH_COM')">Comments...</button>
-					<div class="comments" id="PSYCH_COM">
-						<p>THIS CLASS SUCKS SO MUCH</p>
-						<p>I actually kind of liked this class</p>
-					</div>
+					<table class="comments" id="PSYCH_COM">
+						<tr>
+							<td>THIS CLASS SUCKS SO MUCH. I did not like it one bit. Let me tell you</td>
+						</tr>
+						<tr>
+							<td>I actually kind of liked this class</td>
+						</tr>
+						<tr>
+							<td>Really liked this class. I reccommend you take it with Perlmutter. Easy intro class and helps you figure out early if psychology is the path for you.</td>
+						</tr>
+					</table>
 				</p>
-				<p class="data"></p>
+				<p class="data">Overall Rating: 4.5/5 | Course Difficulty: 3.9/5 | Average Grade: A-</p>
 			</div>
 		</section>
 	<h3>STATS 250: Introduction to Statistics and Data Analysis</h3>
