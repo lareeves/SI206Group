@@ -6,6 +6,7 @@
 	<?php
 		include("header.php");
 	?>
+	<div id="center">
 	<h2>College of Engineering</h2>
 	<h3>EECS 280: Programming and INtroductory Data Structures</h3>
 		<section>
@@ -47,5 +48,6 @@
 				<p class="comments"></p>
 			</div>
 		</section>
+	</div>
 </body>
 </html>

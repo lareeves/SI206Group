@@ -4,10 +4,10 @@
 	include("head.php")
 ?>
 <body>
-<body>
 	<?php
 		include("header.php");
 	?>
+	<div id="center">
 	<h2>School of Information</h2>
 	<h3>SI 110: Introudction to Information Studies</h3>
 		<section>
@@ -49,5 +49,6 @@
 				<p class="comments"></p>
 			</div>
 		</section>
+	</div>
 </body>
 </html>

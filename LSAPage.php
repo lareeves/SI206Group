@@ -7,6 +7,7 @@
 	<?php
 		include("header.php");
 	?>
+	<div id="center">
 	<h2>College of Literature Science and Arts</h2>
 	<h3>Psych 111: Introduction to Psychology</h3>
 		<section>
@@ -48,5 +49,6 @@
 				<p class="comments"></p>
 			</div>
 		</section>
+	</div>
 </body>
 </html>
