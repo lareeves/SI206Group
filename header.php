@@ -21,42 +21,42 @@
 	<nav id="navigation">
 		<a href = "index.php" class="mainlink"
 			<?php
-				if ($fName == "index.php"){
+				/*if ($fName == "index.php"){
 					echo "class = \"current\"";
-				}
+				}*/
 			?>
 			>Home</a>
 
-		<a href = ".php" class="mainlink"
+		<a href = "EngineeringPage.php" class="mainlink"
 			<?php
-				if ($fName == ".php"){
+				/*if ($fName == "EngineeringPage.php"){
 					echo "class = \"current\"";
-				}
+				}*/
 			?>
-			>Link 2</a>
+			>Engineering</a>
 
-		<a href = ".php" class="mainlink"
+		<a href = "LSAPage.php" class="mainlink"
 			<?php
-			if ($fName == ".php"){
+			/*if ($fName == "LSAPage.php"){
 				echo "class = \"current\"";
-			}
+			}*/
 			?>
-			>Link 3</a>
+			>LSA</a>
 
+		<a href = "SchoolofInfoPage.php" class="mainlink"
+			<?php
+			/*if ($fName == "SchoolofInfoPage.php"){
+				echo "class = \"current\"";
+			}*/
+			?>
+			>School of Information</a>
 		<a href = ".php" class="mainlink"
 			<?php
-			if ($fName == ".php"){
+			/*if ($fName == ".php"){
 				echo "class = \"current\"";
-			}
+			}*/
 			?>
-			>Link 4</a>
-		<a href = ".php" class="mainlink"
-			<?php
-			if ($fName == ".php"){
-				echo "class = \"current\"";
-			}
-			?>
-			>Link 5</a>
+			>Submit Rating</a>
 	</nav>	
 </header>
 
