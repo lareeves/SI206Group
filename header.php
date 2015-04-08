@@ -33,7 +33,7 @@
 					echo "class = \"current\"";
 				}*/
 			?>
-			>Engineering</a>
+			>Eng</a>
 
 		<a href = "LSAPage.php" class="mainlink"
 			<?php
@@ -49,14 +49,14 @@
 				echo "class = \"current\"";
 			}*/
 			?>
-			>School of Information</a>
+			>SI</a>
 		<a href = ".php" class="mainlink"
 			<?php
 			/*if ($fName == ".php"){
 				echo "class = \"current\"";
 			}*/
 			?>
-			>Submit Rating</a>
+			>Submit!</a>
 	</nav>	
 </header>
 
