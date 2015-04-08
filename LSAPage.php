@@ -7,6 +7,22 @@
 	<?php
 		include("header.php");
 	?>
+<script type="text/javascript">
+	function showText(show)
+{
+    var p = document.getElementById(show);
+    if(p.style.display ='none') {
+    	p.style.display ='block';
+    	return;
+    }
+    else{
+    	alert(p);
+    	if(p.style.visibility ='visible')
+    	p.style.display='none';
+    	return;
+    }
+}
+</script>
 	<div id="center">
 	<h2>College of Literature Science and Arts</h2>
 	<h3>Psych 111: Introduction to Psychology</h3>
@@ -14,7 +30,9 @@
 			<div id="Psych" class ="course">
 				<p class="description">Designed to introduce students to the major topics studied by psychologists including sensation, perception, learning, motivation, physiological and cultural bases of behavior, development, personality, and social psychology.</p>
 				<p class="data"></p>
-				<p class="comments"></p>
+				<div id="com_header" onclick="showText('comments1')">Comments...
+					<p class="comments" id="comments1">THIS CLASS SUCKS SO MUCH</p>
+				</div>
 			</div>
 		</section>
 	<h3>STATS 250: Introduction to Statistics and Data Analysis</h3>

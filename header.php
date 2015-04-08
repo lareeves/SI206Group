@@ -58,5 +58,25 @@
 			?>
 			>Submit!</a>
 	</nav>	
+	<!--script>
+   // function toggle_visibility(id) {
+   // 	var e = document.getElementById(id);
+   // 	var f = e:first-child;
+   // 	if(f.style.display == 'block')
+   // 		f.style.display = 'none';
+   // 	else 
+   // 		f.style.display = 'block';
+   // }
+// function showText(show)
+// {
+//     var p = document.getElementById(show);
+//     if(p.style.display='none') {
+//     	p.style.display='block';
+//     }
+//     else {
+//     	p.style.display='none';
+//     }
+// }
+// 	</script-->
 </header>
 

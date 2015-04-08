@@ -8,7 +8,7 @@
 	?>
 	<div id="center">
 	<h2>College of Engineering</h2>
-	<h3>EECS 280: Programming and INtroductory Data Structures</h3>
+	<h3>EECS 280: Programming and Introductory Data Structures</h3>
 		<section>
 			<div id="EECS280" class ="course">
 				<p class="description">Techniques and algorithm development and effective programming, top-down analysis, structured programming, testing and program correctness. Program language syntax and static and runtime semantics. Scope, procedure instantiation, recursion, abstract data types and parameter passing methods. Structured data types, pointers, linked data structures, stacks, queues, arrays, records and trees.</p>

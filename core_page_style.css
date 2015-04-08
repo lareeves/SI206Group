@@ -1,16 +1,25 @@
 h2 {
 	text-decoration: underline;
-	padding: 2%;
 }
 h3 {
 	text-decoration: underline;
 }
 .description {
-	border: 1px solid black;
+	border: 2px solid black;
 	padding: 3%;
+}
+.course {
+	padding: 2%;
+}
+.comments {
+	border: 1px solid black;
+	text-align: left;
+	padding: 2%;
+	display: none;
 }
 
 @media only screen and (min-width: 1200px) {
+
 #center{
 		display: inline-block;
 		text-align: center;
