@@ -16,7 +16,6 @@
     	return;
     }
     else{
-    	alert(p);
     	if(p.style.visibility ='visible')
     	p.style.display='none';
     	return;
