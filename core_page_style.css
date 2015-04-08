@@ -17,6 +17,12 @@ h3 {
 	padding: 2%;
 	display: none;
 }
+.comButton {
+	float: right;
+}
+.comButton:hover {
+	color: #5A9E5A;
+}
 
 @media only screen and (min-width: 1200px) {
 
