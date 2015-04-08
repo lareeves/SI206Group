@@ -19,45 +19,45 @@
 
 
 	<nav id="navigation">
-		<a href = "index.php" class="mainlink"
+		<a href = "index.php"
 			<?php
-				if (basename(__FILE__) != "index.php"){
-					echo '<script type="text/javascript">alert("index!");</script>';
-					//echo "class = \"current\"";
+				if ($fName == "index.php"){
+					//echo '<script type="text/javascript">alert("index!");</script>';
+					echo "class = \"current\"";
 				}
 				else
-					echo '<script type="text/javascript">alert("no!");</script>';
+					//echo '<script type="text/javascript">alert("no!");</script>';
 			?>
 			>Home</a>
 
-		<a href = "EngineeringPage.php" class="mainlink"
+		<a href = "EngineeringPage.php"
 			<?php
-				/*if ($fName == "EngineeringPage.php"){
+				if ($fName == "EngineeringPage.php"){
 					echo "class = \"current\"";
-				}*/
+				}
 			?>
 			>Eng</a>
 
-		<a href = "LSAPage.php" class="mainlink"
+		<a href = "LSAPage.php"
 			<?php
-			/*if ($fName == "LSAPage.php"){
+			if ($fName == "LSAPage.php"){
 				echo "class = \"current\"";
-			}*/
+			}
 			?>
 			>LSA</a>
 
-		<a href = "SchoolofInfoPage.php" class="mainlink"
+		<a href = "SchoolofInfoPage.php" 
 			<?php
-			/*if ($fName == "SchoolofInfoPage.php"){
+			if ($fName == "SchoolofInfoPage.php"){
 				echo "class = \"current\"";
-			}*/
+			}
 			?>
 			>SI</a>
-		<a href = ".php" class="mainlink"
+		<a href = ".php"
 			<?php
-			/*if ($fName == ".php"){
+			if ($fName == ".php"){
 				echo "class = \"current\"";
-			}*/
+			}
 			?>
 			>Submit!</a>
 	</nav>	
