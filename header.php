@@ -21,9 +21,9 @@
 	<nav id="navigation">
 		<a href = "index.php" class="mainlink"
 			<?php
-				if (basename(__FILE__) == "index.php"){
+				if (basename(__FILE__) != "index.php"){
 					echo '<script type="text/javascript">alert("index!");</script>';
-					echo "class = \"current\"";
+					//echo "class = \"current\"";
 				}
 				else
 					echo '<script type="text/javascript">alert("no!");</script>';
@@ -62,14 +62,7 @@
 			>Submit!</a>
 	</nav>	
 	<!--script>
-   // function toggle_visibility(id) {
-   // 	var e = document.getElementById(id);
-   // 	var f = e:first-child;
-   // 	if(f.style.display == 'block')
-   // 		f.style.display = 'none';
-   // 	else 
-   // 		f.style.display = 'block';
-   // }
+   
 // function showText(show)
 // {
 //     var p = document.getElementById(show);

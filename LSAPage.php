@@ -16,6 +16,10 @@
     	return;
     }
     else{
+<<<<<<< Updated upstream
+=======
+    	//alert(p);
+>>>>>>> Stashed changes
     	if(p.style.visibility ='visible')
     	p.style.display='none';
     	return;
