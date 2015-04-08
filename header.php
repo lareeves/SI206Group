@@ -21,9 +21,12 @@
 	<nav id="navigation">
 		<a href = "index.php" class="mainlink"
 			<?php
-				/*if ($fName == "index.php"){
+				if (basename(__FILE__) == "index.php"){
+					echo '<script type="text/javascript">alert("index!");</script>';
 					echo "class = \"current\"";
-				}*/
+				}
+				else
+					echo '<script type="text/javascript">alert("no!");</script>';
 			?>
 			>Home</a>
 

@@ -33,6 +33,10 @@ nav a{
 
 }
 
+.current{
+	text-decoration: underline;
+}
+
 /*---Search bar---*/
 #searchbarwrap{
 	padding: 2.5em 0em;
