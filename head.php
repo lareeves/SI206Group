@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="http://ginchai.people.si.umich.edu/css/default.css"> 
 	<link rel="stylesheet" href="http://ginchai.people.si.umich.edu/css/bootstrap.min.css">
 	<link rel="stylesheet" href="header_style.css">
+	<link rel="stylesheet" href="footer_style.css">
 	<link rel="stylesheet" href="core_page_style.css">
 	<title>
 		<?php

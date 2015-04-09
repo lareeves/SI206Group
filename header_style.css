@@ -33,8 +33,10 @@ nav a{
 
 }
 
-#current{
-	text-decoration: underline;
+.current{
+	text-decoration: none;
+	background-color: #c3dfef;
+	color: #424345;
 }
 
 /*---Search bar---*/
@@ -153,10 +155,12 @@ nav a{
 		padding-top: 2em;
 
 	}
-	nav a{
+	nav a {
 		display: block;
 		width:6em;
 		margin-bottom: 0.1em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
 	}
 
 }
