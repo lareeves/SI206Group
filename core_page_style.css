@@ -43,6 +43,10 @@ p div p {
 	color: #0095cd;
 	font-size: 2em;
 }
+.userInfo {
+	text-align: right;
+	font-size: .8em;
+}
 
 @media only screen and (min-width: 1200px) {
 

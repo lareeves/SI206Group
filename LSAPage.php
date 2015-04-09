@@ -27,6 +27,7 @@
 					<table class="comments" id="PSYCH_COM">
 						<tr>
 							<td>THIS CLASS SUCKS SO MUCH. I did not like it one bit. Let me tell you</td>
+							<td class="userInfo">Psych Major, 2015 | 12/13/14</td>
 						</tr>
 						<tr>
 							<td>I actually kind of liked this class</td>
