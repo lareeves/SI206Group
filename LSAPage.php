@@ -11,7 +11,7 @@
 	function showText(show)
 {
     var p = document.getElementById(show);
-    if(p.style.display == 'none') {
+    if(p.style.display == 'none' || p.style.display == '') {
     	p.style.display = 'block';
     }
     else p.style.display = 'none';
@@ -31,9 +31,11 @@
 						</tr>
 						<tr>
 							<td>I actually kind of liked this class</td>
+							<td class="userInfo">STATS Major, 2016 | 1/7/15</td>
 						</tr>
 						<tr>
 							<td>Really liked this class. I reccommend you take it with Perlmutter. Easy intro class and helps you figure out early if psychology is the path for you.</td>
+							<td class = "userInfo">Psych Major, 2017 | 2/6/15</td>
 						</tr>
 					</table>
 				</p>

@@ -11,7 +11,7 @@
 	function showText(show)
 {
     var p = document.getElementById(show);
-    if(p.style.display == 'none') {
+    if(p.style.display == 'none' || p.style.display == '') {
     	p.style.display = 'block';
     }
     else p.style.display = 'none';
