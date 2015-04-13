@@ -131,7 +131,7 @@
 						</tr>
 					</table>
 				</p>
-				<p class="data">Overall Rating: 4.2 | Course Difficulty: 3.4 | Average Grade B+</p>
+				<p class="data">Overall Rating: 4.2 | Course Difficulty: 3.4/5 | Average Grade B+</p>
 			</div>
 		</section>
 	</div>
