@@ -1,4 +1,58 @@
 footer {
 	background-color: #232422;
-	color:white;
+	color: #E0E0E0;
+	text-align: center;
+	font-size: 1.8em;
+	padding: 0.8em 0.2em;
+
+}
+
+footer p{
+	margin: -0.2em 0em;
+}
+
+@media only screen and (min-width: 992px) {
+	/*modified from https://css-tricks.com/snippets/css/sticky-footer/*/
+	footer{
+		font-size: 1em;
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+	}
+
+	html, body {
+		height: 100%;
+	}
+	/*#center{
+		min-height: 100%;
+		margin-bottom: -4em;
+
+	}*/
+	#center:after{
+		content: "";
+		display: block;
+	}
+	/*footer, #center:after{
+		height: 4em;
+	}*/
+
+	footer{
+		margin-left:0em;
+	}
+	#social{
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	 footer {
+	 	padding: 1.2em 0.2em;
+	 }
+	footer p{
+		display: inline-block;
+		padding-left: 2em;
+	}
+
+	#social{
+		margin-left: 2em;
+	}
 }

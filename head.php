@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="http://ginchai.people.si.umich.edu/css/default.css"> 
 	<link rel="stylesheet" href="http://ginchai.people.si.umich.edu/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.2.1/bootstrap-social.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="header_style.css">
 	<link rel="stylesheet" href="footer_style.css">
 	<link rel="stylesheet" href="core_page_style.css">
