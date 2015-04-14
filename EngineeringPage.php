@@ -105,7 +105,7 @@
 						</tr>
 					</table>
 				</p>
-				<p class="data"></p>
+				<p class="data">Overall Rating: 4.4/5 | Course Difficulty: 3.2/5 | Average Grade: B+</p>
 			</div>
 		</section>
 	<h3>EECS 493</h3>
@@ -124,7 +124,7 @@
 						</tr>
 					</table>
 				</p>
-				<p class="data"></p>
+				<p class="data">Overall Rating: 4.6/5 | Course Difficulty: 3.4/5 | Average Grade: B+</p>
 			</div>
 		</section>
 	</div>
