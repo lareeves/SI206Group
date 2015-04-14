@@ -5,7 +5,7 @@
 
 	</style>
 	
-	<h1 id="main_title">U of M Rate My Class</h1>
+	<h1 id="main_title"><img src="banner.png"></h1>
 
 	<!-- modified from: http://www.textfixer.com/tutorials/html-search-box.php -->
 	<!-- HTML for SEARCH BAR -->
