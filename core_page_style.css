@@ -64,6 +64,15 @@ p div p {
 		 /* Need this*/
 	}
 }
+h4{
+	text-align: left;
+	padding-left: 2em;
+	font-size: 2em;
+}
+#indexPage{
+	text-align: left;
+	padding-left: 4.6em;
+}
 /*.data {
 	border: 3px solid black;
 	border-radius: 100%;
