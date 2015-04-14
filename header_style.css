@@ -4,6 +4,10 @@
 		/*background-color: yellow;*/
 }
 
+#index{
+	text-align: justify;
+	text-justify: inner-word;
+}
 #main_title, nav {
 	text-align: center;
 }
