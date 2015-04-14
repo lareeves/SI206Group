@@ -16,7 +16,7 @@
 	padding: 0.1em 0.1em;
 	margin: 0;
 	color: #C4C4C4;
-	background-color: #232422;
+	background-color: #626262;
 }
 nav{
 	padding-top: 3em;
@@ -148,7 +148,7 @@ img{
 	#main_title{
 		position: fixed;
 		text-align: center;
-		background-color: #232422;
+		background-color: #626262;
 		width: 100%;
 	}
 	#searchbarwrap{
