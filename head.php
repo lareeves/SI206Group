@@ -15,21 +15,21 @@
 			{
 				echo "Home";
 			}
-			elseif ($fName == ".php") 
+			elseif ($fName == "EngineeringPage.php") 
 			{
-				echo "";
+				echo "Engieering Classes";
 			}
-			elseif ($fName == ".php")
+			elseif ($fName == "LSAPage.php.php")
 			{
-				echo "";
+				echo "LSA Classes";
 			}
-			elseif ($fName == ".php") 
+			elseif ($fName == "SchoolofInfoPage.php") 
 			{
-				echo "";
+				echo "SI Classes";
 			}
 			else
 			{
-				echo "";
+				echo "Write Your Review";
 			}
 		?>
 	</title>
