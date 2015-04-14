@@ -19,7 +19,7 @@
 			{
 				echo "Engieering Classes";
 			}
-			elseif ($fName == "LSAPage.php.php")
+			elseif ($fName == "LSAPage.php")
 			{
 				echo "LSA Classes";
 			}
