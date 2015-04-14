@@ -1,42 +1,24 @@
 <?php 
 
 
+
+// form needs to be responsive
+// form needs to be styled
  ?>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="form.css">
-		<script type="text/javascript">
-	function validateForm(form){
-		var emailCheck = form.email;
-		var nameCheck = form.name;
-    	var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
-		if (email.val() == '' || !re.test(email.val()))
-		{
-    		alert('Please enter a valid email address.');
-    		return false;
-		}
-		else{
-			if (nameCheck.match("[a-zA-Z]") == true){
-				return true;
-			}
-			else{
-				return false;
-			}
-		}
-	} 
-</script>
+<?php 
+$fName = basename(__FILE__);
+include("head.php");
 
 
-</head>
+
+ ?>
+
+
 <body>
-
+	<?php 
+	include("header.php"); ?>
 
 
 
@@ -55,6 +37,7 @@
 	<label for="email">Your Email:</label>
 	<input type="email" name="email"><br>
 	<label for="profname">Professor Name</label>
+	<!-- autocomplete for professor name -->
 	<input type="text" name="profname"><br>
 	<label for="coursename">Course:</label>
 	<select name="coursename" id="">
@@ -108,5 +91,27 @@
 	</div>
 	</div>
 </form onsubmit="return validateForm(this);">
+
+<?php include("footer.php"); ?>
 </body>
+		<script type="text/javascript">
+	function validateForm(form){
+		var emailCheck = form.email;
+		var nameCheck = form.name;
+    	var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
+		if (email.val() == '' || !re.test(email.val()))
+		{
+    		alert('Please enter a valid email address.');
+    		return false;
+		}
+		else{
+			if (nameCheck.match("[a-zA-Z]") == true){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+	} 
+</script>
 </html>

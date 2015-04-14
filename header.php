@@ -53,9 +53,9 @@
 			}
 			?>
 			>SI</a>
-		<a href = ".php"
+		<a href = "form.php"
 			<?php
-			if ($fName == ".php"){
+			if ($fName == "form.php"){
 				echo "class = \"current\"";
 			}
 			?>
