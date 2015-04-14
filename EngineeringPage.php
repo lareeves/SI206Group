@@ -25,7 +25,7 @@
 			<div id="EECS280" class ="course">
 				<p class="description">Techniques and algorithm development and effective programming, top-down analysis, structured programming, testing and program correctness. Program language syntax and static and runtime semantics. Scope, procedure instantiation, recursion, abstract data types and parameter passing methods. Structured data types, pointers, linked data structures, stacks, queues, arrays, records and trees.<br>
 				<div class="text-right">
-				<button class = "btn btn-default" onclick="showText('280_COM')">Comments...</button>
+					<button class = "btn btn-default" onclick="showText('280_COM')">Comments...</button>
 				</div>
 					<table class="comments" id="280_COM">
 						<tr>
@@ -49,7 +49,9 @@
 		<section>
 			<div id="EECS281" class ="course">
 				<p class="description">Introduction to algorithm analysis and O-notation; Fundamental data structures including lists, stacks, queues, priority queues, hash tables, binary trees, search trees, balanced trees and graphs; searching and sorting algorithms; recursive algorithms; basic graph algorithms; introduction to greedy algorithms and divide and conquer strategy. Several programming assignments.<br>
-				<button class = "comButton" onclick="showText('281_COM')">Comments...</button>
+				<div class="text-right">
+					<button class = "btn btn-default" onclick="showText('281_COM')">Comments...</button>
+				</div>
 					<table class="comments" id="281_COM">
 						<tr>
 							<td>That class was 100 times worse than 280 and was my hardest/favorite class that I've taken at Michigan</td>
@@ -72,7 +74,9 @@
 		<section>
 			<div id="EECS285" class ="course">
 				<p class="description">A course covering a complex computer system or programming language. Programming problems will be assigned. Specific languages or systems to be offered will be announced in advance.<br>
-				<button class = "comButton" onclick="showText('285_COM')">Comments...</button>
+				<div class="text-right">
+					<button class = "btn btn-default" onclick="showText('285_COM')">Comments...</button>
+				</div>
 					<table class="comments" id="285_COM">
 						<tr>
 							<td>I did not care for EECS 285. I would recommend against taking it.</td>
@@ -95,7 +99,9 @@
 		<section>
 			<div id="EECS485" class ="course">
 				<p class="description">Concepts surrounding Web information systems, including client/server systems, security, XML, information retrieval and search engines and data replication issues. Includes substantial final project involving development of a database-backed web site.<br>
-				<button class = "comButton" onclick="showText('485_COM')">Comments...</button>
+				<div class="text-right">
+					<button class = "btn btn-default" onclick="showText('485_COM')">Comments...</button>
+				</div>
 					<table class="comments" id="485_COM">
 						<tr>
 							<td>485 teaches you how to make websites. You'll get practice in Javascript, HTML, CSS, a server architecture of your choice (My group did Flask, another did Node.js, you can pick pretty much anything you want), and you'll also get to try a little bit of Hadoop near the end of the semester</td>
@@ -114,7 +120,9 @@
 		<section>
 			<div id="EECS493" class ="course">
 				<p class="description">Concepts and techniques for designing computer system user interfaces to be easy to learn and use, with an introduction to their implementation. Task analysis, design of functionality, display and interaction design, and usability evaluation. Interface programming using an object-oriented application framework. Fluency in a standard object-oriented programming language is assumed.<br>
-				<button class = "comButton" onclick="showText('493_COM')">Comments...</button>
+				<div class="text-right">
+					<button class = "btn btn-default" onclick="showText('493_COM')">Comments...</button>
+				</div>
 					<table class="comments" id="493_COM">
 						<tr>
 							<td>I was really looking forward to this course, and it was fine for the first half. I didn't learn a single thing the second half of the course. In fact, the review sheet for the final was the same as the review sheet for the midterm plus two or three additional things.</td>
