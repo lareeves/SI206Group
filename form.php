@@ -20,11 +20,13 @@ include("head.php");
 	<?php 
 	include("header.php"); ?>
 
+	
+
 
 
 	<div class="container">
 		<h1>Practice Form </h1>
-<div class ="form-horizontal col-sm-offset-4"> 
+<div class ="form-horizontal"> 
 <form action="gotIt.php" method="POST" >
 	
 	<!-- Must add bootstrap styling -->
@@ -90,7 +92,9 @@ include("head.php");
 	<input type="submit" value= "Submit" class="btn btn-default">
 	</div>
 	</div>
+
 </form onsubmit="return validateForm(this);">
+
 
 <?php include("footer.php"); ?>
 </body>
