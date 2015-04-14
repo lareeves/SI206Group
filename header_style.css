@@ -13,7 +13,7 @@
 }
 #main_title{
 	font-size: 6em;
-	padding: 0.4em 0.1em;
+	padding: 0.1em 0.1em;
 	margin: 0;
 	color: #C4C4C4;
 	background-color: #232422;
@@ -36,7 +36,9 @@ nav a{
 	/*border-radius: 0.2em;*/
 
 }
-
+img{
+	align: middle;
+}
 .current{
 	text-decoration: none;
 	background-color: #c3dfef;
@@ -136,7 +138,7 @@ nav a{
 		text-align: center;
 		/*background-color: yellow; */
 		margin-left:15.5em; /* Need this*/
-		margin-top:12em; /* Need this*/
+		 /* Need this*/
 	}
 	#main_title{
 		position: fixed;
@@ -146,12 +148,13 @@ nav a{
 	}
 	#searchbarwrap{
 		position: fixed;
+		top: 12em;
 		width: 100%;
-		top:7.5em;
+
 	}
 	nav {
 		position: fixed;
-		top: 12.2em;
+		top: 16.7em;
 		height: 100%;
 		background-color: #232422;
 		padding-left: 0.1em;
@@ -166,5 +169,7 @@ nav a{
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
 	}
+	header{
 
+	}
 }
