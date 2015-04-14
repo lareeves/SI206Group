@@ -31,76 +31,102 @@ include("head.php");
 	
 	<!-- Must add bootstrap styling -->
 	<div class="row">
-		<label for="firstname" >First Name</label>
-		<input type="text" name="firstname" placeholder="First Name"> <br>
-		<label for="lastname">Last Name</label>
-		<input type="text" name="lastname"> <br>
+		<div class="col-sm-6 col-lg-4">
+			<div class="form-group">
+				<label for="firstname" >First Name</label>
+				<input type="text" name="firstname" placeholder="First Name"> <br>
+			</div>
+		</div>
+			<div class="col-sm-6 col-lg-4">
+				<div class="form-group">
+					<label for="lastname">Last Name</label>
+					<input type="text" name="lastname"> <br>
+				</div>
+			</div>
 	</div>
 	<div class="row">
-		<label for="year">Year</label>
-		<input type="number"> <br>
+		<div class="form-group">
+			<label for="year">Year</label>
+			<input type="number"> <br>
+		</div>
 	</div>
 	<div class="row">
-		<label for="email">Your Email:</label>
-		<input type="email" name="email"><br>
+		<div class="form-group">
+			<label for="email">Your Email:</label>
+			<input type="email" name="email"><br>
+		</div>
 	</div>
 	<div class="row">
-		<label for="profname">Professor Name</label>
-		<!-- autocomplete for professor name -->
-		<input type="text" name="profname"><br>
+		<div class="form-group">
+			<label for="profname">Professor Name</label>
+			<!-- autocomplete for professor name -->
+			<input type="text" name="profname"><br>
+		</div>
 	</div>
 	<div class="row">
-		<label for="coursename">Course:</label>
-		<select name="coursename" id="">
-			<option value="course1">Course 1</option>
-			<option value="course2">Course 2</option>
-			<option value="course3">Course 3</option>
-		</select><br>
-		<label>Overall Rating:</label>
-		<select name="orating" id="orating">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-		</select>
-		<br><label for="drating">Course Difficulty:</label>
-		<select name="drating" id="drating">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-		</select><br>
+		<div class="form-group">
+			<label for="coursename">Course:</label>
+			<select name="coursename" id="">
+				<option value="course1">Course 1</option>
+				<option value="course2">Course 2</option>
+				<option value="course3">Course 3</option>
+			</select><br>
+		</div>
+		<div class="form-group">
+			<label>Overall Rating:</label>
+			<select name="orating" id="orating">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<br><label for="drating">Course Difficulty:</label>
+			<select name="drating" id="drating">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select><br>
+		</div>
 	</div>
 	<div class="row">
-		<label for="irating">Your Interest:</label>
-		<select name="irating" id="irating">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-		</select><br>
-		<label for="grade">Grade Received/Expected</label>
-		<select name="grade" id="grade_id">
-			<option value="A">A</option>
-			<option value="Aminus">A-</option>
-			<option value="Bplus">B+</option>
-			<option value="B">B</option>
-			<option value="Bminus">B-</option>
-			<option value="Cplus">C+</option>
-			<option value="C">C</option>
-			<option value="Cminus">C-</option>
-			<option value="Dplus">D+</option>
-			<option value="D">D</option>
-			<option value="Dminus">D-</option>
-			<option value="E">E</option>
-			<option value="dropped">Dropped Course</option>
-		</select><br>
+		<div class="form-group">
+			<label for="irating">Your Interest:</label>
+			<select name="irating" id="irating">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select><br>
+		</div>
+		<div class="form-group">
+			<label for="grade">Grade Received/Expected</label>
+			<select name="grade" id="grade_id">
+				<option value="A">A</option>
+				<option value="Aminus">A-</option>
+				<option value="Bplus">B+</option>
+				<option value="B">B</option>
+				<option value="Bminus">B-</option>
+				<option value="Cplus">C+</option>
+				<option value="C">C</option>
+				<option value="Cminus">C-</option>
+				<option value="Dplus">D+</option>
+				<option value="D">D</option>
+				<option value="Dminus">D-</option>
+				<option value="E">E</option>
+				<option value="dropped">Dropped Course</option>
+			</select><br>
+		</div>
 	</div>
-	<label for="feedback">Write your review:</label><br>
-	<textarea name="feedback" id="" cols="30" rows="10"></textarea>
+	<div class="form-group">
+		<label for="feedback">Write your review:</label><br>
+		<textarea name="feedback" id="" cols="30" rows="10"></textarea>
+	</div>
 	<input type="submit" value= "Submit" class="btn btn-default">
 	</div>
 	</div>
