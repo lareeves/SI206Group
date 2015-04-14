@@ -24,7 +24,9 @@
 		<section>
 			<div id="EECS280" class ="course">
 				<p class="description">Techniques and algorithm development and effective programming, top-down analysis, structured programming, testing and program correctness. Program language syntax and static and runtime semantics. Scope, procedure instantiation, recursion, abstract data types and parameter passing methods. Structured data types, pointers, linked data structures, stacks, queues, arrays, records and trees.<br>
-				<button class = "comButton" onclick="showText('280_COM')">Comments...</button>
+				<div class="text-right">
+				<button class = "btn btn-default" onclick="showText('280_COM')">Comments...</button>
+				</div>
 					<table class="comments" id="280_COM">
 						<tr>
 							<td>In 280 I thought the the projects were difficult and took a lot of time, but overall I got good grades on them. I did very poorly on the tests though and as a result got a low grade in the class.</td>

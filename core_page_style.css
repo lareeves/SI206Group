@@ -21,8 +21,13 @@ h3 {
 	display: none;
 	font-size: 1.2em;
 }
-.comButton {
+/*.btn btn-default {
 	float: right;
+}*/
+.comButton {
+	/*border-radius: 20%;*/
+	float: right;
+	/*margin-bottom: .5%;*/
 }
 .comButton:hover {
 	color: #5A9E5A;
