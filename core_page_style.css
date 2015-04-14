@@ -3,13 +3,16 @@ body {
 }
 h2 {
 	text-decoration: underline;
+	font-size: 3em;
 }
 h3 {
 	text-decoration: underline;
+	padding: .8%;
 }
 .description {
 	border: 2px solid black;
 	padding: 3%;
+	font-size: 2em;
 }
 .course {
 	padding: 2%;
@@ -20,6 +23,9 @@ h3 {
 	padding: 2%;
 	display: none;
 	font-size: 1.2em;
+}
+td {
+	font-size: 2em;
 }
 /*.btn btn-default {
 	float: right;
@@ -37,7 +43,8 @@ tr {
 }
 td {
 	padding: 1.5%;
-	width: 70%;
+	display: block;
+	/*width: 70%;*/
 }
 p div p {
 	text-decoration: underline;
@@ -47,10 +54,36 @@ p div p {
 	text-align: left;
 	color: #0095cd;
 	font-size: 2em;
+	padding: 1%;
 }
 .userInfo {
+	/*text-align: right;*/
+	font-size: 1.1em;
+	text-align: left;
+}
+
+@media only screen and (min-width: 992px) {
+	h2 {
+		font-size: 2.2em;
+	}
+	h3 {
+		padding: 0%;
+	}
+	.description {
+		font-size: 1.1em;
+	}
+	.data {
+		padding: 0%;
+		text-align: left;
+	}
+	td {
+		font-size: 1em;
+		width: 70%;
+	}
+	.userInfo {
 	text-align: right;
 	font-size: .8em;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
