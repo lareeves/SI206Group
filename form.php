@@ -17,7 +17,7 @@ include("head.php");
 <body>
 	<script type="text/javascript">
 	function validateForm(form){
-		alert("rin");
+		// alert("rin");
 		var emailCheck = form.email;
 		var nameCheck = form.name;
 
