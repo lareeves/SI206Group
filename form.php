@@ -46,17 +46,17 @@ include("head.php");
 	<div class="container-fluid">
 		<h1>Submit your Review </h1>
 		<div> 
-			<form  action= "gotIt.php" method="POST" name="submission" id="getform">
+			<form  action= "gotIt.php" method="POST" name="submission" id="getform" onsubmit="validateForm(this);">
 				<div class="row">
 					<div class="col-sm-6 col-lg-6">
 						<div class="form-group">
-							<label for="firstname" >First Name</label><br>
+							<label>First Name</label><br>
 							<input type="text" name="firstname" > <br>
 						</div>
 					</div>
 					<div class="col-sm-6 col-lg-6">
 						<div class="form-group">
-							<label for="lastname">Last Name</label><br>
+							<label>Last Name</label><br>
 							<input type="text" name="lastname"> <br>
 						</div>
 					</div>
@@ -64,7 +64,7 @@ include("head.php");
 				<div class="row">
 					<div class="col-sm-6 col-lg-6">
 					<div class="form-group">
-					<label for="year">Graduation Year</label><br>
+					<label>Graduation Year</label><br>
 					<input type="text"> <br>
 				</div>
 			</div>
@@ -72,7 +72,7 @@ include("head.php");
 	<div class="row">
 		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
-				<label for="email">Your Email:</label><br>
+				<label>Your Email:</label><br>
 				<input type="email" name="email"><br>
 			</div>
 		</div>
@@ -80,7 +80,7 @@ include("head.php");
 	<div class="row">
 		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
-				<label for="major">Major</label><br>
+				<label>Major</label><br>
 				<!-- autocomplete for professor name -->
 				<input type="text" name="major"><br>
 			</div>
@@ -89,7 +89,7 @@ include("head.php");
 	<div class="row">
 		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
-				<label for="coursename">Course:</label><br>
+				<label>Course:</label><br>
 				<input type="text" name="coursename">
 			</div>
 		</div>
@@ -111,7 +111,7 @@ include("head.php");
 	<div class="row">
 		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
-				<br><label for="drating">Course Difficulty:</label><br>
+				<br><label>Course Difficulty:</label><br>
 				<select name="drating" id="drating">
 					<option value="1">1</option>
 					<option value="2">2</option>
@@ -123,7 +123,7 @@ include("head.php");
 		</div>
 		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
-				<label for="grade">Grade Received/Expected</label><br>
+				<label>Grade Received/Expected</label><br>
 				<select name="grade" id="grade_id">
 					<option value="A">A</option>
 					<option value="Aminus">A-</option>
@@ -144,10 +144,10 @@ include("head.php");
 	</div>
 	<div class="form-group">
 		<label for="feedback">Write your review:</label><br>
-		<textarea name="feedback" id="" cols="30" rows="10"></textarea>
+		<textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
 	</div>
 	<input type="submit" value= "Submit" class="btn btn-default" onclick="return validateForm(this);">
-	</form onsubmit="validateForm(this);">
+	</form>
 	</div>
 	</div>
 
