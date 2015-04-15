@@ -53,13 +53,13 @@
 			}
 			?>
 			>SI</a>
-		<a href = "form.php"
+		<a id="submitreview" href = "form.php"
 			<?php
 			if ($fName == "form.php"){
 				echo "class = \"current\"";
 			}
 			?>
-			>Submit!</a>
+			>Submit a Review</a>
 	</nav>	
 	<!--script>
    

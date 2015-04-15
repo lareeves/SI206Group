@@ -28,7 +28,7 @@ footer p{
 	}
 	#center{
 		min-height: 100%;
-		margin-bottom: -4em;
+		/*margin-bottom: -4em;*/
 
 	}
 	#center:after{

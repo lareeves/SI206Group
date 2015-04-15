@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="http://ginchai.people.si.umich.edu/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.2.1/bootstrap-social.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="header_style.css">
 	<link rel="stylesheet" href="footer_style.css">
 	<link rel="stylesheet" href="core_page_style.css">
@@ -15,21 +18,21 @@
 			{
 				echo "Home";
 			}
-			elseif ($fName == ".php") 
+			elseif ($fName == "EngineeringPage.php") 
 			{
-				echo "";
+				echo "Engieering Classes";
 			}
-			elseif ($fName == ".php")
+			elseif ($fName == "LSAPage.php")
 			{
-				echo "";
+				echo "LSA Classes";
 			}
-			elseif ($fName == ".php") 
+			elseif ($fName == "SchoolofInfoPage.php") 
 			{
-				echo "";
+				echo "SI Classes";
 			}
 			else
 			{
-				echo "";
+				echo "Write Your Review";
 			}
 		?>
 	</title>
