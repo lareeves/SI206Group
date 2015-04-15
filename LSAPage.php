@@ -27,7 +27,7 @@
 				<p class="description">Designed to introduce students to the major topics studied by 
 										psychologists including sensation, perception, learning, motivation, 
 										physiological and cultural bases of behavior, development, personality, 
-										and social psychology.<br>
+										and social psychology.</p><br>
 					</div>
 					<div class="col-md-4">
 						<p class="data">Overall Rating: 4.5/5 | Course Difficulty: 3.9/5 | Average Grade: A-</p>
@@ -52,7 +52,6 @@
 							<td class = "userInfo">Psych Major, 2017 | 2/6/15</td>
 						</tr>
 					</table>
-				</p>
 			</div>
 		</section>
 	<h3>STATS 250: Introduction to Statistics and Data Analysis</h3>
@@ -63,7 +62,7 @@
 				<p class="description">In this course students are introduced to the concepts and 
 										applications of statistical methods and data analysis. Examples 
 										of applications are drawn from virtually all academic areas and 
-										some attention is given to statistical process control methods.<br>
+										some attention is given to statistical process control methods.<br></p>
 					</div>
 					<div class="col-md-4">
 						<p class="data">Overall Rating: 4.1/5 | Course Difficulty: 3.4/5 | Average Grade: B+</p>
@@ -89,7 +88,6 @@
 							<td class = "userInfo">Psych Major, 2017 | 3/24/15</td>
 						</tr>
 					</table>
-				</p>
 			</div>
 		</section>
 	<h3>Math 115: Calculus I</h3>
@@ -103,7 +101,7 @@
 										Topics include functions and graphs, derivatives and their applications 
 										to real-life problems in various fields, and definite integrals. The 
 										classroom atmosphere is interactive and cooperative and homework is done 
-										in groups.<br>
+										in groups.<br></p>
 					</div>
 					<div class="col-md-4">
 						<p class="data">Overall Rating: 3.2 | Course Difficulty: 4.1/5 | Average Grade: B</p>
@@ -129,7 +127,6 @@
 							<td class = "userInfo">Psych Major, 2017 | 10/15/14</td>
 						</tr>
 					</table>
-				</p>
 			</div>
 		</section>
 	<h3>Spanish 277: Reading, Grammar, and Composition</h3>
@@ -141,7 +138,7 @@
 										individual study on-line. The course will focus on reading short stories 
 										in Spanish and learning to write analytic essays. However, the grammatical 
 										content will be taught in an on-line format, with points of grammar linked 
-										to materials taught and discussed in class.<br>
+										to materials taught and discussed in class.<br></p>
 					</div>
 					<div class="col-md-4">
 						<p class="data">Overall rating: 3.3 | Course Difficulty: 4.3/5 | Average Grade: B</p>
@@ -170,7 +167,6 @@
 							<td class = "userInfo">Psych Major, 2017 | 11/21/14</td>
 						</tr>
 					</table>
-				</p>
 			</div>
 		</section>
 		<h3>Screen Arts and Culture (SAC) 236: The Art of Film</h3>
@@ -182,7 +178,7 @@
 										and techniques used in film making and television, and some of the salient 
 										developments in film's artistic and technological history. This course 
 										provides students with the basic tools and methods for film appreciation 
-										and study.<br>
+										and study.<br></p>
 					</div>
 					<div class="col-md-4">
 						<p class="data">Overall Rating: 4.2 | Course Difficulty: 3.4/5 | Average Grade B+</p>
@@ -210,7 +206,6 @@
 							<td class = "userInfo">Psych Major, 2016 | 4/7/14</td>
 						</tr>
 					</table>
-				</p>
 			</div>
 		</section>
 	</div>

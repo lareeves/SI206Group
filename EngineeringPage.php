@@ -29,7 +29,7 @@
 																analysis, structured programming, testing and program correctness. Program 
 																language syntax and static and runtime semantics. Scope, procedure instantiation, 
 																recursion, abstract data types and parameter passing methods. Structured data types, 
-																pointers, linked data structures, stacks, queues, arrays, records and trees.<br></div>
+																pointers, linked data structures, stacks, queues, arrays, records and trees.<br></p></div>
 					<div class ="col-md-4"><p class="data">Overall Rating: 3.9/5 | Course Difficulty: 4/5 | Average Grade: B</p></div>
 				</div>
 				<div class="text-left">
@@ -49,7 +49,6 @@
 						<td class = "userInfo">EECS Major, 2017 | 3/1/15</td>
 					</tr>
 				</table>
-				</p>
 			</div>
 		</section>
 		<h3>EECS 281: Data Structures and Algorithms</h3>
@@ -60,7 +59,7 @@
 																including lists, stacks, queues, priority queues, hash tables, binary trees, search 
 																trees, balanced trees and graphs; searching and sorting algorithms; recursive 
 																algorithms; basic graph algorithms; introduction to greedy algorithms and divide and 
-																conquer strategy. Several programming assignments.<br></div>
+																conquer strategy. Several programming assignments.<br></div></p>
 					<div class ="col-md-4"><p class="data">Overall Rating: 3.5/5 | Course Difficulty: 4.7/5 | Average Grade: B-</p></div>
 				</div>
 				<div class="text-left">
@@ -80,7 +79,6 @@
 						<td class = "userInfo">EECS Major, 2016 | 4/14/14</td>
 					</tr>
 				</table>
-				</p>
 			</div>
 		</section>
 		<h3>EECS 285: A Programming Language or Computer System</h3>
@@ -89,7 +87,7 @@
 				<div class="row">
 					<div class="col-md-8"><p class="description">A course covering a complex computer system or programming language. Programming 
 																problems will be assigned. Specific languages or systems to be offered will be 
-																announced in advance.<br></div>
+																announced in advance.<br></div></p>
 					<div class="col-md-4"><p class="data">Overall Rating: 4.2/5 | Course Difficulty: 3.5/5 | Average Grade: A</p></div>
 				</div>
 				<div class="text-left">
@@ -109,7 +107,6 @@
 							<td class = "userInfo">EECS Major, 2017 | 3/6/15</td>
 						</tr>
 					</table>
-				</p>
 			</div>
 		</section>
 		<h3>EECS 485</h3>
@@ -117,7 +114,8 @@
 			<div id="EECS485" class ="course">
 					<div class="row">
 						<div class="col-md-8">
-				<p class="description">Concepts surrounding Web information systems, including client/server systems, security, XML, information retrieval and search engines and data replication issues. Includes substantial final project involving development of a database-backed web site.<br>
+				<p class="description">Concepts surrounding Web information systems, including client/server systems, security, XML, information retrieval
+										 and search engines and data replication issues. Includes substantial final project involving development of a database-backed web site.<br></p>
 				</div>
 				<div class ="col-md-4">
 					<p class="data">Overall Rating: 4.4/5 | Course Difficulty: 3.2/5 | Average Grade: B+</p></div></div>
@@ -134,8 +132,6 @@
 							<td class="userInfo">EECS Major, 2016 | 11/18/14</td>
 						</tr>
 					</table>
-				</p>
-				
 			</div>
 		</section>
 	<h3>EECS 493</h3>
@@ -143,7 +139,8 @@
 			<div id="EECS493" class ="course">
 				<div class ="row">
 					<div class="col-md-8">
-				<p class="description">Concepts and techniques for designing computer system user interfaces to be easy to learn and use, with an introduction to their implementation. Task analysis, design of functionality, display and interaction design, and usability evaluation. Interface programming using an object-oriented application framework. Fluency in a standard object-oriented programming language is assumed.<br>
+				<p class="description">Concepts and techniques for designing computer system user interfaces to be easy to learn and use, with an introduction to their implementation. Task analysis, design of functionality, display and interaction design, 
+									and usability evaluation. Interface programming using an object-oriented application framework. Fluency in a standard object-oriented programming language is assumed.<br></p>
 				</div>
 				<div class="col-md-4">
 					<p class="data">Overall Rating: 4.6/5 | Course Difficulty: 3.4/5 | Average Grade: B+</p>
@@ -162,8 +159,6 @@
 							<td class="userInfo">EECS Major, 2016 | 2/3/15</td>
 						</tr>
 					</table>
-				</p>
-				
 			</div>
 		</section>
 	</div>

@@ -30,7 +30,7 @@
 																will range from the theoretical (what is information and how do humans construct it?), to the cultural 
 																(is life on the screen a qualitatively different phenomenon from experiences with earlier distance-shrinking 
 																and knowledge-building technologies such as telephones?), to the practical (what are the basic architecture 
-																of computing networks?). Successful completion of this "gateway" course.<br></div>
+																of computing networks?). Successful completion of this "gateway" course.<br></p></div>
 					<div class="col-md-4"><p class="data">Overall Rating: 4.6/5 | Course Difficulty: 2.8/5 | Average Grade: A</p></div>
 				</div>
 				<div class="text-left">
@@ -50,7 +50,6 @@
 						<td class = "userInfo">School of Information, 2017 | 1/6/15</td>
 					</tr>
 				</table>
-				</p>
 			</div>
 		</section>
 		<h3>SI 206: Agile Web Development</h3>
@@ -60,7 +59,7 @@
 					<div class="col-md-8"><p class="description">Agile Web Development --- Introduction to web programming. Covers HTML, CSS, Javascript, the DOM, 
 																and AJAX and an introduction to server-based programming. Also explores the theory and practice of 
 																agile software development and continues to explore techniques used in coordinate groups of people
-																working together on software development.<br></div>
+																working together on software development.<br></p></div>
 					<div class="col-md-4"><p class="data">Overall Rating: 4.8/5 | Course Difficulty: 3.3/5 | Average Grade: A-</p></div>
 				</div>
 				<div class="text-left">
@@ -76,7 +75,6 @@
 						<td class="userInfo">EECS Major, 2015 | 3/14/15</td>
 					</tr>
 				</table>
-				</p>	
 			</div>
 		</section>
 		<h3>SI 339: Design of Complex Websites</h3>
@@ -85,7 +83,7 @@
 				<div class="row">
 					<div class="col-md-8"><p class="description">Design of Complex Websites --- This course provides a hands-on approach to building interactive, 
 																database-backed websites. Topics covered include HTML, CSS, and Ajax; the Python programming language; 
-																the Google Application Engine web development framework; data modeling and database design.<br></div>
+																the Google Application Engine web development framework; data modeling and database design.<br></p></div>
 					<div class="col-md-4"><p class="data">Overall Rating: 4.6/5 | Course Difficulty: 3.8/5 | Average Grade: A-</p>
 					</div>
 				</div>
@@ -106,7 +104,6 @@
 						<td class = "userInfo">School of Information, 2016 | 3/6/15</td>
 					</tr>
 				</table>
-				</p>
 			</div>
 		</section>
 		<h3>SI 363: Busting Myths and Pursuing Information Innovations with Mobile Apps</h3>
@@ -116,7 +113,7 @@
 					<div class="col-md-8"><p class="description">Busting Myths and Pursuing Information Innovations with Mobile Apps --- Inspiration for innovation 
 																occurs often when people are passionate about changing the world. What are the first steps to take? 
 																How do you balance your ideas development as a lead designer in the mobile space? Students will 
-																identify and work with target customers, and receive regular feedback from successful innovators.<br></div>
+																identify and work with target customers, and receive regular feedback from successful innovators.<br></p></div>
 					<div class="col-md-4"><p class="data">Overall Rating: 4.2/5 | Course Difficulty: 3.6/5 | Average Grade: A-</p></div>
 				</div>
 				<div class="text-left">
@@ -132,8 +129,6 @@
 							<td class="userInfo">School of Information, 2016 | 1/22/15</td>
 						</tr>
 					</table>
-				</p>
-				
 			</div>
 		</section>
 		<h3>SI 430: Information Technology and Global Society</h3>
@@ -145,7 +140,7 @@
 																 discussion and introspection, construct their own personal hypotheses of technology 
 																 and society. Along the way, students will hear about the way in which information 
 																 technology is touching the remotest places in the world, gain an introduction to formal 
-																 theories of technology and society, and stress-test their critical thinking skills.<br></div>
+																 theories of technology and society, and stress-test their critical thinking skills.<br></p></div>
 					<div class="col-md-4"><p class="data">Overall Rating: 4.6/5 | Course Difficulty: 3.4/5 | Average Grade: B+</p></div>
 				</div>
 				<div class="text-left">
@@ -161,7 +156,6 @@
 						<td class="userInfo">School of Information, 2016 | 3/26/15</td>
 					</tr>
 				</table>
-				</p>
 			</div>
 		</section>
 	</div>

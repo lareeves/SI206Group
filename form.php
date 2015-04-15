@@ -1,11 +1,7 @@
 <?php 
-
-
-
 // form needs to be responsive
 // form needs to be styled
  ?>
-
 
 <?php 
 $fName = basename(__FILE__);
@@ -17,7 +13,7 @@ include("head.php");
 
 
 <body>
-			<script type="text/javascript">
+	<script type="text/javascript">
 	function validateForm(form){
 		alert("rin");
 		var emailCheck = form.email;
@@ -47,37 +43,31 @@ include("head.php");
 	<?php 
 	include("header.php"); ?>
 
-	
-
-
-
 	<div class="container-fluid">
 		<h1>Submit your Review </h1>
-<div> 
-<form  action= "gotIt.php" method="POST" name="submission" id="getform">
-	
-	<!-- Must add bootstrap styling -->
-	<div class="row">
-		<div class="col-sm-6 col-lg-6">
-			<div class="form-group">
-				<label for="firstname" >First Name</label><br>
-				<input type="text" name="firstname" > <br>
-			</div>
-		</div>
-			<div class="col-sm-6 col-lg-6">
-				<div class="form-group">
-					<label for="lastname">Last Name</label><br>
-					<input type="text" name="lastname"> <br>
+		<div> 
+			<form  action= "gotIt.php" method="POST" name="submission" id="getform">
+				<div class="row">
+					<div class="col-sm-6 col-lg-6">
+						<div class="form-group">
+							<label for="firstname" >First Name</label><br>
+							<input type="text" name="firstname" > <br>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-6">
+						<div class="form-group">
+							<label for="lastname">Last Name</label><br>
+							<input type="text" name="lastname"> <br>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-lg-6">
+					<div class="form-group">
+					<label for="year">Graduation Year</label><br>
+					<input type="text"> <br>
 				</div>
 			</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 col-lg-6">
-			<div class="form-group">
-				<label for="year">Graduation Year</label><br>
-				<input type="text"> <br>
-			</div>
-		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-6 col-lg-6">
@@ -157,10 +147,11 @@ include("head.php");
 		<textarea name="feedback" id="" cols="30" rows="10"></textarea>
 	</div>
 	<input type="submit" value= "Submit" class="btn btn-default" onclick="return validateForm(this);">
+	</form onsubmit="validateForm(this);">
 	</div>
 	</div>
 
-</form onsubmit="validateForm(this);">
+
 
 
 <?php include("footer.php"); ?>
