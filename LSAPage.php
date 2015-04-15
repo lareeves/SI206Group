@@ -53,7 +53,6 @@
 						</tr>
 					</table>
 				</p>
-				<p class="data">Overall Rating: 4.5/5 | Course Difficulty: 3.9/5 | Average Grade: A-</p>
 			</div>
 		</section>
 	<h3>STATS 250: Introduction to Statistics and Data Analysis</h3>
@@ -178,7 +177,7 @@
 		<section>
 			<div id="Film" class ="course">
 				<div class="row">
-					<div class-"col-md-8">
+					<div class="col-md-8">
 				<p class="description">This course examines the dramatic and psychological effects of the elements 
 										and techniques used in film making and television, and some of the salient 
 										developments in film's artistic and technological history. This course 
