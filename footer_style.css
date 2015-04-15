@@ -9,7 +9,9 @@ footer {
 
 footer p{
 	margin: -0.2em 0em;
+	text-align: center;
 }
+
 
 #social{
 	margin-top: 0.5em;
@@ -65,5 +67,8 @@ footer p{
 	#social{
 		margin-left: 3em;
 		margin-top: 0em;
+	}
+	#gotit{
+		min-height: 100%;
 	}
 }

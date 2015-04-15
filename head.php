@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="header_style.css">
 	<link rel="stylesheet" href="footer_style.css">
 	<link rel="stylesheet" href="core_page_style.css">
+	<link rel="stylesheet" href="gotit_style.css">
 	<title>
 		<?php
 			if ($fName == "index.php")
@@ -20,7 +21,7 @@
 			}
 			elseif ($fName == "EngineeringPage.php") 
 			{
-				echo "Engieering Classes";
+				echo "Engineering Classes";
 			}
 			elseif ($fName == "LSAPage.php")
 			{
@@ -32,7 +33,7 @@
 			}
 			else
 			{
-				echo "Write Your Review";
+				echo "Submit a Review";
 			}
 		?>
 	</title>
