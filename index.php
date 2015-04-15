@@ -1,4 +1,4 @@
-<!-- ****JOSH VIKRAM GIN LAUREN**** -->
+<!-- ****LAUREN**** -->
 <?php
 	$fName = basename(__FILE__);
 	include("head.php")
