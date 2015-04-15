@@ -24,7 +24,7 @@ include("head.php");
 
 
 
-	<div class="container-fluid" id="center">
+	<div class="container-fluid">
 		<h1>Practice Form </h1>
 <div> 
 <form action="gotIt.php" method="POST" >
@@ -47,7 +47,7 @@ include("head.php");
 	<div class="row">
 		<div class="form-group">
 			<label for="year">Year</label><br>
-			<input type="number"> <br>
+			<input type="text"> <br>
 		</div>
 	</div>
 	<div class="row">
@@ -58,9 +58,9 @@ include("head.php");
 	</div>
 	<div class="row">
 		<div class="form-group">
-			<label for="profname">Professor Name</label><br>
+			<label for="major">Major</label><br>
 			<!-- autocomplete for professor name -->
-			<input type="text" name="profname"><br>
+			<input type="text" name="major"><br>
 		</div>
 	</div>
 	<div class="row">
@@ -100,18 +100,6 @@ include("head.php");
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-6 col-lg-4">
-			<div class="form-group">
-				<label for="irating">Your Interest:</label><br>
-				<select name="irating" id="irating">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-				</select><br>
-			</div>
-		</div>
 		<div class="col-sm-6 col-lg-4">
 			<div class="form-group">
 				<label for="grade">Grade Received/Expected</label><br>
