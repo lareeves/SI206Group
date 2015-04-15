@@ -68,4 +68,7 @@ footer p{
 		margin-left: 3em;
 		margin-top: 0em;
 	}
+	#gotit{
+		min-height: 100%;
+	}
 }

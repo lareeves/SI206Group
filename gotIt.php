@@ -1,6 +1,14 @@
 <?php
-
-var_dump($_POST);
+	$fName = basename(__FILE__);
+	include("head.php")
+?>
+<body>
+	<?php
+		include("header.php");
+	?>
+	<p id="gotit">
+<?php
+	print "Thank you for submitting you information.<br/>";
     $filename = "SaveInfo.csv";
     $isItExisting = (file_exists($filename));
 
@@ -35,6 +43,10 @@ var_dump($_POST);
 
 	echo "Email sent";
 ?>
+	</p>
+	<?php
+		include("footer.php");
+	?>
+</body>
+</html>
 
-<!-- 	if (!is_array($value)){
- -->		
