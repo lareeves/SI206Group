@@ -1,22 +1,26 @@
 <header>
 	
-	<style type="text/css">
-		
-
-	</style>
+	<script type="text/javascript">
+	function search()
+	{
+	    url = "https://www.google.com/#q=";
+	    url += "site:www.umratemyclass.com+";
+	    url += document.getElementById("textinput").value;
+	    window.open(url,'_blank');
+	}
+	</script>
 	
 	<h1 id="main_title"><img src="banner.png"></h1>
 
 	<!-- modified from: http://www.textfixer.com/tutorials/html-search-box.php -->
 	<!-- HTML for SEARCH BAR -->
 	<div id="searchbarwrap">
-		<form id="newsearch" method="get" action="http://www.google.com">
+		<form id="newsearch" onsubmit="search()">
 		        <input type="text" id="textinput" name="textinput" maxlength="120" 
 		         placeholder="Search"><input type="submit" value="GO" id="gobutton">
 		</form>
 			<!-- <div class="tfclear"></div> -->
 	</div>
-
 
 	<nav id="navigation">
 		<a href = "index.php"

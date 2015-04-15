@@ -10,31 +10,42 @@ h3 {
 	text-decoration: none;
 	text-align: left;
 	padding-left: 2%;
-	font-family: 'PT serif', serif;
+	font-family: 'Fjalla One', sans-serif;
 }
 .description {
-	border: 2px solid black;
-	padding: 3%;
+	/*border: 2px solid black;*/
+	padding: 1%;
 	font-size: 2em;
+	font-family: 'Average', serif;
 }
 .course {
-	padding: 2%;
+	padding: 1%;
 
 }
 .comments {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	text-align: left;
 	padding: 2%;
 	display: none;
 	font-size: 2em;
 }
-<<<<<<< Updated upstream
 
-=======
 p{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Average', serif;
+	text-align: left;
+	font-size: 2em;
 }
->>>>>>> Stashed changes
+
+tr {
+	/*border: 4px dashed #c3dfef;*/
+	width: 70%;
+}
+td {
+	/*padding: 1.5%;*/
+	display: block;
+	/*width: 70%;*/
+}
+
 /*.btn btn-default {
 	float: right;
 }*/
@@ -46,19 +57,7 @@ p{
 .comButton:hover {
 	color: #5A9E5A;
 }
-tr {
-	border: 4px dashed #c3dfef;
-	width: 70%;
-}
-td {
-	/*padding: 1.5%;*/
-	display: block;
-	/*width: 70%;*/
-}
-p div p {
-	text-decoration: underline;
-	text-decoration: overline;
-}
+
 .data {
 	text-align: left;
 	color: #0095cd;
@@ -70,24 +69,37 @@ p div p {
 	font-size: 1.1em;
 	text-align: right;
 }
-
+.row{
+	position: relative;
+	z-index: -1;
+}
 @media only screen and (min-width: 992px) {
 	h2 {
 		font-size: 2.2em;
 	}
 	h3 {
-		padding: 0%;
+		padding-left: 2%;
 	}
 	.comments {
 		font-size: 1.4em;
 	}
 	.description {
-		font-size: 1.1em;
+		font-size: 1.15em;
+	}
+	p{
+		font-size: 1.15em;
 	}
 	.data {
 		padding: 0%;
 		text-align: left;
 	}
+
+	.container{
+	display: inline-block;
+	text-align: left;
+	margin-left: 15.5em;
+	margin-top:18em;
+}
 /*	td {
 		font-size: 1em;
 		width: 70%;
@@ -111,6 +123,15 @@ p div p {
 		margin-top: 18em;
 		 /* Need this*/
 	}
+
+	.container-fluid{
+	display: inline-block;
+	text-align: left;
+	margin-left: 25em;
+	margin-top:18em;
+	position: relative;
+	/*z-index: -1;*/
+}
 }
 
 h4{
@@ -122,6 +143,10 @@ h4{
 	text-align: left;
 	padding-left: 4.6em;
 }
+
+
+
+
 img{
 	width: 80%;
 }
