@@ -17,6 +17,33 @@ include("head.php");
 
 
 <body>
+			<script type="text/javascript">
+	function validateForm(form){
+		alert("rin");
+		var emailCheck = form.email;
+		var nameCheck = form.name;
+
+
+		if (document.forms.submission["firstname"].value.length == 0 || document.forms.submission["lastname"].value.length == 0 || document.forms.submission["major"].value.length == 0 || document.forms.submission["year"].value.length == 0 || document.forms.submission["course"].value.length ==0){
+			alert("You must fill out all fields");
+			return false;
+		}
+    	var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
+		if (document.forms.submission["email"].value == '' || !re.test(document.forms.submission["email"].value))
+		{
+    		alert('Please enter a valid email address.');
+    		return false;
+		}
+		else{
+			if (document.forms.submission["firstname"].value.match("[a-zA-Z]") == true && document.forms.submission["lastname"].value.match("[a-zA-Z]") == true){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+	} 
+</script>
 	<?php 
 	include("header.php"); ?>
 
@@ -27,7 +54,7 @@ include("head.php");
 	<div class="container-fluid">
 		<h1>Submit your Review </h1>
 <div> 
-<form action="gotIt.php" method="POST" >
+<form  action= "gotIt.php" method="POST" name="submission" id="getform">
 	
 	<!-- Must add bootstrap styling -->
 	<div class="row">
@@ -129,33 +156,14 @@ include("head.php");
 		<label for="feedback">Write your review:</label><br>
 		<textarea name="feedback" id="" cols="30" rows="10"></textarea>
 	</div>
-	<input type="submit" value= "Submit" class="btn btn-default">
+	<input type="submit" value= "Submit" class="btn btn-default" onclick="return validateForm(this);" ;>
 	</div>
 	</div>
 
-</form onsubmit="return validateForm(this);">
+</form onsubmit="validateForm(this);">
 
 
 <?php include("footer.php"); ?>
 </body>
-		<script type="text/javascript">
-	function validateForm(form){
-		var emailCheck = form.email;
-		var nameCheck = form.name;
-    	var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
-		if (email.val() == '' || !re.test(email.val()))
-		{
-    		alert('Please enter a valid email address.');
-    		return false;
-		}
-		else{
-			if (nameCheck.match("[a-zA-Z]") == true){
-				return true;
-			}
-			else{
-				return false;
-			}
-		}
-	} 
-</script>
+
 </html>
