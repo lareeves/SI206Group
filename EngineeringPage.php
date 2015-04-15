@@ -17,10 +17,8 @@
     else p.style.display = 'none';
 }
 </script>
-
 	<div id="center">
-	<section>
-	<h2>College of Engineering</h2>
+		<h2>College of Engineering</h2>
 		<h3>EECS 280: Programming and Introductory Data Structures</h3>
 		<section>
 			<div id="EECS280" class ="course">
@@ -59,7 +57,7 @@
 																including lists, stacks, queues, priority queues, hash tables, binary trees, search 
 																trees, balanced trees and graphs; searching and sorting algorithms; recursive 
 																algorithms; basic graph algorithms; introduction to greedy algorithms and divide and 
-																conquer strategy. Several programming assignments.<br></div></p>
+																conquer strategy. Several programming assignments.<br></p></div>
 					<div class ="col-md-4"><p class="data">Overall Rating: 3.5/5 | Course Difficulty: 4.7/5 | Average Grade: B-</p></div>
 				</div>
 				<div class="text-left">
@@ -87,7 +85,7 @@
 				<div class="row">
 					<div class="col-md-8"><p class="description">A course covering a complex computer system or programming language. Programming 
 																problems will be assigned. Specific languages or systems to be offered will be 
-																announced in advance.<br></div></p>
+																announced in advance.<br></p></div>
 					<div class="col-md-4"><p class="data">Overall Rating: 4.2/5 | Course Difficulty: 3.5/5 | Average Grade: A</p></div>
 				</div>
 				<div class="text-left">
@@ -112,57 +110,55 @@
 		<h3>EECS 485</h3>
 		<section>
 			<div id="EECS485" class ="course">
-					<div class="row">
-						<div class="col-md-8">
-				<p class="description">Concepts surrounding Web information systems, including client/server systems, security, XML, information retrieval
-										 and search engines and data replication issues. Includes substantial final project involving development of a database-backed web site.<br></p>
+				<div class="row">
+					<div class="col-md-8"><p class="description">Concepts surrounding Web information systems, including client/server 
+																	systems, security, XML, information retrieval and search engines and data 
+																	replication issues. Includes substantial final project involving development
+																	 of a database-backed web site.<br></p></div>
+					<div class ="col-md-4"><p class="data">Overall Rating: 4.4/5 | Course Difficulty: 3.2/5 | Average Grade: B+</p></div>
 				</div>
-				<div class ="col-md-4">
-					<p class="data">Overall Rating: 4.4/5 | Course Difficulty: 3.2/5 | Average Grade: B+</p></div></div>
 				<div class="text-left">
 					<button class = "btn btn-default" onclick="showText('485_COM')">Comments...</button>
 				</div>
-					<table class="comments" id="485_COM">
-						<tr>
-							<td>485 teaches you how to make websites. You'll get practice in Javascript, HTML, CSS, a server architecture of your choice (My group did Flask, another did Node.js, you can pick pretty much anything you want), and you'll also get to try a little bit of Hadoop near the end of the semester</td>
-							<td class="userInfo">EECS Major, 2015 | 10/13/14</td>
-						</tr>
-						<tr>
-							<td>part of what made 485 so good for me was that Mike Cafarella taught it, and he was phenomenal. If you can wait until he's teaching it again, I recommend it.</td>
-							<td class="userInfo">EECS Major, 2016 | 11/18/14</td>
-						</tr>
-					</table>
+				<table class="comments" id="485_COM">
+					<tr>
+						<td>485 teaches you how to make websites. You'll get practice in Javascript, HTML, CSS, a server architecture of your choice (My group did Flask, another did Node.js, you can pick pretty much anything you want), and you'll also get to try a little bit of Hadoop near the end of the semester</td>
+						<td class="userInfo">EECS Major, 2015 | 10/13/14</td>
+					</tr>
+					<tr>
+						<td>part of what made 485 so good for me was that Mike Cafarella taught it, and he was phenomenal. If you can wait until he's teaching it again, I recommend it.</td>
+						<td class="userInfo">EECS Major, 2016 | 11/18/14</td>
+					</tr>
+				</table>
 			</div>
 		</section>
-	<h3>EECS 493</h3>
+		<h3>EECS 493</h3>
 		<section>
 			<div id="EECS493" class ="course">
 				<div class ="row">
-					<div class="col-md-8">
-				<p class="description">Concepts and techniques for designing computer system user interfaces to be easy to learn and use, with an introduction to their implementation. Task analysis, design of functionality, display and interaction design, 
-									and usability evaluation. Interface programming using an object-oriented application framework. Fluency in a standard object-oriented programming language is assumed.<br></p>
+					<div class="col-md-8"><p class="description">Concepts and techniques for designing computer system user interfaces to be 
+																easy to learn and use, with an introduction to their implementation. Task 
+																analysis, design of functionality, display and interaction design, and usability 
+																evaluation. Interface programming using an object-oriented application framework. 
+																Fluency in a standard object-oriented programming language is assumed.<br></p></div>
+					<div class="col-md-4"><p class="data">Overall Rating: 4.6/5 | Course Difficulty: 3.4/5 | Average Grade: B+</p></div>
 				</div>
-				<div class="col-md-4">
-					<p class="data">Overall Rating: 4.6/5 | Course Difficulty: 3.4/5 | Average Grade: B+</p>
-				</div>
-			</div>
 				<div class="text-left">
 					<button class = "btn btn-default" onclick="showText('493_COM')">Comments...</button>
 				</div>
-					<table class="comments" id="493_COM">
-						<tr>
-							<td>I was really looking forward to this course, and it was fine for the first half. I didn't learn a single thing the second half of the course. In fact, the review sheet for the final was the same as the review sheet for the midterm plus two or three additional things.</td>
-							<td class="userInfo">EECS Major, 2014 | 10/13/13</td>
-						</tr>
-						<tr>
-							<td>love this course, very straight forward.  Team project at the end can be a little overwhelming though.</td>
-							<td class="userInfo">EECS Major, 2016 | 2/3/15</td>
-						</tr>
-					</table>
+				<table class="comments" id="493_COM">
+					<tr>
+						<td>I was really looking forward to this course, and it was fine for the first half. I didn't learn a single thing the second half of the course. In fact, the review sheet for the final was the same as the review sheet for the midterm plus two or three additional things.</td>
+						<td class="userInfo">EECS Major, 2014 | 10/13/13</td>
+					</tr>
+					<tr>
+						<td>love this course, very straight forward.  Team project at the end can be a little overwhelming though.</td>
+						<td class="userInfo">EECS Major, 2016 | 2/3/15</td>
+					</tr>
+				</table>
 			</div>
 		</section>
 	</div>
-</section>
 	<?php
 		include("footer.php");
 	?>
