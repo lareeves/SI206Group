@@ -156,7 +156,7 @@ include("head.php");
 		<label for="feedback">Write your review:</label><br>
 		<textarea name="feedback" id="" cols="30" rows="10"></textarea>
 	</div>
-	<input type="submit" value= "Submit" class="btn btn-default" onclick="return validateForm(this);" ;>
+	<input type="submit" value= "Submit" class="btn btn-default" onclick="return validateForm(this);">
 	</div>
 	</div>
 

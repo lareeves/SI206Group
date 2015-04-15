@@ -173,7 +173,7 @@
 				</p>
 			</div>
 		</section>
-	<h3>Screen Arts and Culture (SAC) 236: The Art of Film</h3>
+		<h3>Screen Arts and Culture (SAC) 236: The Art of Film</h3>
 		<section>
 			<div id="Film" class ="course">
 				<div class="row">

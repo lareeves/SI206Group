@@ -10,7 +10,7 @@
 	}
 	</script>
 	
-	<h1 id="main_title"><img src="banner.png"></h1>
+	<h1 id="main_title"><img alt="Rate My Class Banner" src="banner.png"></h1>
 
 	<!-- modified from: http://www.textfixer.com/tutorials/html-search-box.php -->
 	<!-- HTML for SEARCH BAR -->
