@@ -31,13 +31,13 @@ include("head.php");
 	
 	<!-- Must add bootstrap styling -->
 	<div class="row">
-		<div class="col-sm-6 col-lg-4">
+		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
 				<label for="firstname" >First Name</label><br>
 				<input type="text" name="firstname" placeholder="First Name"> <br>
 			</div>
 		</div>
-			<div class="col-sm-6 col-lg-4">
+			<div class="col-sm-6 col-lg-6">
 				<div class="form-group">
 					<label for="lastname">Last Name</label><br>
 					<input type="text" name="lastname"> <br>
@@ -45,26 +45,32 @@ include("head.php");
 			</div>
 	</div>
 	<div class="row">
-		<div class="form-group">
-			<label for="year">Graduation Year</label><br>
-			<input type="text"> <br>
+		<div class="col-sm-6 col-lg-6">
+			<div class="form-group">
+				<label for="year">Graduation Year</label><br>
+				<input type="text"> <br>
+			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="form-group">
-			<label for="email">Your Email:</label><br>
-			<input type="email" name="email"><br>
+		<div class="col-sm-6 col-lg-6">
+			<div class="form-group">
+				<label for="email">Your Email:</label><br>
+				<input type="email" name="email"><br>
+			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="form-group">
-			<label for="major">Major</label><br>
-			<!-- autocomplete for professor name -->
-			<input type="text" name="major"><br>
+		<div class="col-sm-6 col-lg-6">
+			<div class="form-group">
+				<label for="major">Major</label><br>
+				<!-- autocomplete for professor name -->
+				<input type="text" name="major"><br>
+			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-6 col-lg-4">
+		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
 				<label for="coursename">Course:</label><br>
 				<select name="coursename" id="">
@@ -74,7 +80,7 @@ include("head.php");
 				</select><br>
 			</div>
 		</div>
-		<div class="col-sm-6 col-lg-4">
+		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
 				<label>Overall Rating:</label><br>
 				<select name="orating" id="orating">
@@ -86,7 +92,11 @@ include("head.php");
 				</select>
 			</div>
 		</div>
-		<div class="col-sm-6 col-lg-4">
+	</div>
+		
+
+	<div class="row">
+		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
 				<br><label for="drating">Course Difficulty:</label><br>
 				<select name="drating" id="drating">
@@ -98,9 +108,7 @@ include("head.php");
 				</select><br>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 col-lg-4">
+		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
 				<label for="grade">Grade Received/Expected</label><br>
 				<select name="grade" id="grade_id">
