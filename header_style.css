@@ -18,6 +18,9 @@
 	color: #C4C4C4;
 	background-color: #626262;
 }
+header{
+	z-index: 100;
+}
 nav{
 	padding-top: 3em;
 	padding-bottom: 1em;
@@ -150,11 +153,13 @@ img{
 		text-align: center;
 		background-color: #626262;
 		width: 100%;
+		z-index: 100;
 	}
 	#searchbarwrap{
 		position: fixed;
 		top: 12em;
 		width: 100%;
+		z-index: 100;
 
 	}
 	nav {
