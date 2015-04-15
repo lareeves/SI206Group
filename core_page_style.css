@@ -105,6 +105,17 @@ h4{
 	text-align: left;
 	padding-left: 4.6em;
 }
+
+.container{
+	display: inline-block;
+	text-align: left;
+	margin-left: 15.5em;
+	margin-top:18em;
+}
+
+.form-group{
+	border: 1px;
+}
 /*.data {
 	border: 3px solid black;
 	border-radius: 100%;
