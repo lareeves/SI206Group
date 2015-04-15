@@ -1,3 +1,4 @@
+<!-- ****GIN VIKRAM**** -->
 <footer>
 	<p id="last_modified">Last Modified: 
 	<?php
