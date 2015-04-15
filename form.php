@@ -34,7 +34,7 @@ include("head.php");
 		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
 				<label for="firstname" >First Name</label><br>
-				<input type="text" name="firstname" placeholder="First Name"> <br>
+				<input type="text" name="firstname" > <br>
 			</div>
 		</div>
 			<div class="col-sm-6 col-lg-6">
@@ -73,11 +73,7 @@ include("head.php");
 		<div class="col-sm-6 col-lg-6">
 			<div class="form-group">
 				<label for="coursename">Course:</label><br>
-				<select name="coursename" id="">
-					<option value="course1">Course 1</option>
-					<option value="course2">Course 2</option>
-					<option value="course3">Course 3</option>
-				</select><br>
+				<input type="text" name="coursename">
 			</div>
 		</div>
 		<div class="col-sm-6 col-lg-6">
