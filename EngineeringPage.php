@@ -138,8 +138,15 @@
 	<h3>EECS 493</h3>
 		<section>
 			<div id="EECS493" class ="course">
+				<div class ="row">
+					<div class="col-md-8">
 				<p class="description">Concepts and techniques for designing computer system user interfaces to be easy to learn and use, with an introduction to their implementation. Task analysis, design of functionality, display and interaction design, and usability evaluation. Interface programming using an object-oriented application framework. Fluency in a standard object-oriented programming language is assumed.<br>
-				<div class="text-right">
+				</div>
+				<div class="col-md-4">
+					<p class="data">Overall Rating: 4.6/5 | Course Difficulty: 3.4/5 | Average Grade: B+</p>
+				</div>
+			</div>
+				<div class="text-left">
 					<button class = "btn btn-default" onclick="showText('493_COM')">Comments...</button>
 				</div>
 					<table class="comments" id="493_COM">
@@ -153,7 +160,7 @@
 						</tr>
 					</table>
 				</p>
-				<p class="data">Overall Rating: 4.6/5 | Course Difficulty: 3.4/5 | Average Grade: B+</p>
+				
 			</div>
 		</section>
 	</div>
