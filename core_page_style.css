@@ -117,11 +117,13 @@ p div p {
 		 /* Need this*/
 	}
 
-	.container{
+	.container-fluid{
 	display: inline-block;
 	text-align: left;
-	margin-left: 15.5em;
+	margin-left: 25em;
 	margin-top:18em;
+	position: relative;
+	/*z-index: -1;*/
 }
 }
 

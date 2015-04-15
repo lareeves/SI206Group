@@ -25,7 +25,7 @@ include("head.php");
 
 
 	<div class="container-fluid">
-		<h1>Practice Form </h1>
+		<h1>Submit your Review </h1>
 <div> 
 <form action="gotIt.php" method="POST" >
 	
@@ -46,7 +46,7 @@ include("head.php");
 	</div>
 	<div class="row">
 		<div class="form-group">
-			<label for="year">Year</label><br>
+			<label for="year">Graduation Year</label><br>
 			<input type="text"> <br>
 		</div>
 	</div>
