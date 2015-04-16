@@ -17,7 +17,7 @@ h3 {
 .description {
 	/*border: 2px solid black;*/
 	padding: 1%;
-	font-size: 2em;
+	font-size: 1.4em;
 	font-family: 'Average', serif;
 }
 .course {
@@ -29,14 +29,14 @@ h3 {
 	text-align: left;
 	padding: 2%;
 	display: none;
-	font-size: 2em;
+	font-size: 1.4em;
 }
 
 
 p{
 	font-family: 'Average', serif;
 	text-align: left;
-	font-size: 2em;
+	font-size: 1.3em;
 }
 
 tr {
@@ -67,7 +67,7 @@ td {
 .data {
 	text-align: left;
 	color: #0095cd;
-	font-size: 2em;
+	font-size: 1.4em;
 	padding: 1%;
 }
 .userInfo {
@@ -105,22 +105,17 @@ td {
 	}
 
 	.container{
-	display: inline-block;
-	text-align: left;
-	margin-left: 15.5em;
-	margin-top:18em;
-}
-/*	td {
-		font-size: 1em;
-		width: 70%;
-		display: inline;
-		padding: 0%;
-		margin: 3%;
-	}*/
+		display: inline-block;
+		text-align: left;
+		margin-left: 15.5em;
+		margin-top:18em;
+	}
+
 	.userInfo {
 	text-align: right;
 	font-size: .8em;
 	}
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -151,7 +146,7 @@ h4{
 }
 #indexPage{
 	text-align: left;
-	padding-left: 4.6em;
+	margin-left: 3.8em;
 }
 
 img{
